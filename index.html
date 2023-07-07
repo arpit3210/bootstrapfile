@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- https://source.unsplash.com/random/?Cryptocurrency, bitcoin/ -->
+
+  <!-- <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/random/?Cryptocurrency, bitcoin/" alt="crypto" class="d-block h-75 w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/random/?Cryptocurrency/" class="d-block h-75 w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/random/?Cryptocurrency/somethings" class="d-block h-75 w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+
+  <div class="container text-center border-black">
+    <div class="row border-5">
+      <div class="col-2 text-bg-light border">
+        1 of 2
+      </div>
+      <div class="col-2 bg-black border">
+        2 of 2
+      </div>
+    </div>
+    <div class="row border-5">
+      <div class="col bg-danger border">
+        1 of 3
+      </div>
+      <div class="col bg-black border">
+        2 of 3
+      </div>
+      <div class="col bg-black border">
+        3 of 3
+      </div>
+    </div>
+  </div>
+
+
+  <div class="alert alert-danger alert-dismissible" role="alert">
+    <strong>Transaction amount 1625376 eth </strong> is being canceled
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <hr>
+
+  <button type="button" class="btn btn-outline-primary">Cancel
+    <span class="badge text-bg-secondary">4</span>
+  </button>
+
+  <button type="button" class="btn btn-primary">
+    Notifications <span class="badge text-bg-secondary">4</span>
+  </button>
+
+  <button type="button" class="btn btn-outline-success">Cancel
+    <span class="badge text-bg-secondary">4</span>
+  </button>
+
+  <button type="button" class="btn btn-warning">
+    Notifications <span class="badge text-bg-secondary">4</span>
+  </button>
+
+
+  <button class=" btn btn-outline-danger">Hello
+    <span class="badge text-bg-danger">0</span>
+  </button>
+
+  <hr>
+
+  <div class="btn-group btn-outline-danger btn-lg">
+    <input class="btn-lg" type="text" placeholder="Search"></input>
+    <button class="btn btn-lg btn-danger">Subscribe</button>
+  </div>
+
+
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+    <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+  </div>
+
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://source.unsplash.com" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
